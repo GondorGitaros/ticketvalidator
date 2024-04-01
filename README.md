@@ -1,3 +1,1 @@
-# qrCode_scanner_web_app
-qr codes reader
-# ticketvalidator
+# Ticket Validator
