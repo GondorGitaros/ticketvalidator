@@ -1,2 +1,2 @@
 # Ticket Validator
-[Weboldal](https://ticketvalidatorapp.netlify.app)
+[Itt érhető el](https://szoloestvalidator.netlify.app)
