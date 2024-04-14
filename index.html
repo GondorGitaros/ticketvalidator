@@ -26,10 +26,16 @@
                 fetch(targetUrl)
                     .then(response => response.text())
                     .then(data => {
-                        document.getElementById('result').innerHTML = data;
+                        // Check if the word "jegy" is in the body HTML
+                        if (data.includes("jegy")) {
+                            document.getElementById('result').innerHTML = "VALID";
+                        } else {
+                            document.getElementById('result').innerHTML = "NOT VALID";
+                        }
                     })
                     .catch((error) => {
                         console.error('Error:', error);
+                        document.getElementById('result').innerHTML = "NOT VALID";
                     });
                 html5Qrcode.stop();  
             }
